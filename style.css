@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link:hover{
+    color: green !important;
+}
+.home{
+    /* background: url(https://html.design/demo/picked/images/img-1.png) center no-repeat; */
+    background-size: cover;  
+  }
+  .testimonial{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height:500px;
+}
+.test-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.test-head h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+#float-left{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+#float-right{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 55px;
+    top: 3800px;
+}
+
+.client{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin: 0% auto;
+}
+
+.client-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+}
+.client-head-img img{
+    width: 200px;
+}
+.client-head-text{
+    margin-left: 15px;
+
+}
+.client-head-text h1{
+ font-weight: bold;
+}
+.client-head-text p{
+    color: rgb(234, 219, 17);
+}
+.client-text{
+    width: 500px;
+}
+#floats{
+    height: 100px;
+    width: 100px;
+    margin-left: 900px;
+}
+/* @media only screen and (max-width: 1330px) {
+    .home {
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 1em;
+        padding: 2em;
+    }
+
+    .nav-link {
+        width: 90%;
+    }
+
+
+} */
+.footer{
+    background-color: black;
+    color: white;
+
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .footer-column {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+  }
+/* @media(max-width:500px){
+    .shop{
+        display: block;
+    }
+    .images
+    {
+        width: 400px;
+        height: 200px;
+    
+        padding: 2em;
+    }
+    .about{
+        width: 200px;
+        height: 100px;
+        align-items: center;
+        padding: 2em;
+    }
+}
+@media(max-width:700px){
+    .shop{
+        display: block;
+    }
+    .images
+    {
+        width: 400px;
+        height: 200px;
+    
+        padding: 2em;
+    }
+    .about{
+        width: 200px;
+        height: 100px;
+        align-items: center;
+        padding: 2em;
+    }
+} */
